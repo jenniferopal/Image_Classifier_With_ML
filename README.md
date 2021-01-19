@@ -38,7 +38,7 @@ In order to intall Pytorch head over to the Pytorch site select your specs and f
 ## Viewing the Jyputer Notebook
 In order to better view and work on the jupyter Notebook I encourage you to use [nbviewer](https://nbviewer.jupyter.org/) . You can simply copy and paste the link to this website and you will be able to edit it without any problem. Alternatively you can clone the repository using 
 ```
-git clone https://github.com/fotisk07/Image-Classifier/
+git clone https://github.com/jenniferopal/Image_Classifier_With_ML.git
 ```
 then in the command Line type, after you have downloaded jupyter notebook type
 ```
@@ -93,15 +93,3 @@ As you can see you have a wide selection of hyperparameters available and you ca
 
 ## Pre-Trained Network
 The checkpoint.pth file contains the information of a network trained to recognise 102 different species of flowers. I has been trained with specific hyperparameters thus if you don't set them right the network will fail. In order to have a prediction for an image located in the path /path/to/image using my pretrained model you can simply type ```python predict.py /path/to/image checkpoint.pth```
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://github.com/fotisk07/Image-Classifier/blob/master/CONTRIBUTING) for the process for submitting pull requests. 
-
-## Authors
-
-* **Fotios Kapotos** - *Initial work* 
-* **Udacity** - *Final Project of the AI with Python Nanodegree*
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fotisk07/Image-Classifier/blob/master/LICENSE) file for details
-![alt text](https://github.com/fotisk07/Image-Classifier/blob/master/Certificate-1.jpg)
